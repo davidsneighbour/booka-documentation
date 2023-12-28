@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+            <title>    Documentation &raquo; Markers
+</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
+        <script src="js/search.js"></script>
+        <script defer src="js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">Documentation</a></h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/booka.html" class="">Booka</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/booka-accounting.html" class="">Accounting</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/booka-api.html" class="">Api</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/booka-cli.html" class="">Cli</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/booka-core.html" class="">Core</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/booka-data.html" class="">Data</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/booka-frontend.html" class="">Frontend</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/booka-tours.html" class="">Tours</a>
+                
+            </li>
+            </ul>
+
+                        </section>
+                <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="">Application</a>
+</h4>
+
+                        </section>
+            
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                        <section>
+        <ul class="phpdocumentor-breadcrumbs">
+            <li><a href="">Home</a></li>
+        </ul>
+
+        <div class="phpdocumentor-row">
+            <h2 class="phpdocumentor-content__title">Markers</h2>
+
+                            <h3>Table of Contents</h3>
+                <table class="phpdocumentor-table_of_contents">
+                                                                        <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Accounting/AccountingClasses.php">src/Accounting/AccountingClasses.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Accounting/Transactions.php">src/Accounting/Transactions.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Api/Tours/Bookings.php">src/Api/Tours/Bookings.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Api/Tours/Costs.php">src/Api/Tours/Costs.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Api/Tours/Prices.php">src/Api/Tours/Prices.php</a></td>
+                                <td class="phpdocumentor-cell">4</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Core/Autotasks/CronjobTransformer.php">src/Core/Autotasks/CronjobTransformer.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Core/Configuration/Config.php">src/Core/Configuration/Config.php</a></td>
+                                <td class="phpdocumentor-cell">3</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Core/Customers/Customers.php">src/Core/Customers/Customers.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Core/Documents/Documents.php">src/Core/Documents/Documents.php</a></td>
+                                <td class="phpdocumentor-cell">2</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Core/Helpers/Encryption.php">src/Core/Helpers/Encryption.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Core/Helpers/Helpers.php">src/Core/Helpers/Helpers.php</a></td>
+                                <td class="phpdocumentor-cell">2</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Core/Obsolete/Crud13.php">src/Core/Obsolete/Crud13.php</a></td>
+                                <td class="phpdocumentor-cell">3</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Core/Options/Options.php">src/Core/Options/Options.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Core/Users/Passphrase.php">src/Core/Users/Passphrase.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Core/Users/Userrole.php">src/Core/Users/Userrole.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Core/Users/Users.php">src/Core/Users/Users.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Data/Crud/Traits/StaticGet.php">src/Data/Crud/Traits/StaticGet.php</a></td>
+                                <td class="phpdocumentor-cell">2</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Data/Crud/Traits/StaticIndex.php">src/Data/Crud/Traits/StaticIndex.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Frontend/Documentation/Documentation.php">src/Frontend/Documentation/Documentation.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Frontend/Page/Data.php">src/Frontend/Page/Data.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Frontend/Page/Debugger.php">src/Frontend/Page/Debugger.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Frontend/Page/Icons.php">src/Frontend/Page/Icons.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Tours/Bookings.php">src/Tours/Bookings.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Tours/Bookings2.php">src/Tours/Bookings2.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Tours/Categories.php">src/Tours/Categories.php</a></td>
+                                <td class="phpdocumentor-cell">3</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Tours/Prices.php">src/Tours/Prices.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Tours/RecentBookings.php">src/Tours/RecentBookings.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Tours/Templates/TourTemplates.php">src/Tours/Templates/TourTemplates.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Tours/Tours.php">src/Tours/Tours.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                                                                <tr>
+                                <td class="phpdocumentor-cell"><a href="reports/markers.html#src/Tours/Tours2.php">src/Tours/Tours2.php</a></td>
+                                <td class="phpdocumentor-cell">1</td>
+                            </tr>
+                                                            </table>
+            
+                            <a id="src/Accounting/AccountingClasses.php"></a>
+                <h3><abbr title="src/Accounting/AccountingClasses.php">AccountingClasses.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">38</td>
+                            <td class="phpdocumentor-cell">rework to non-static methods</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Accounting/Transactions.php"></a>
+                <h3><abbr title="src/Accounting/Transactions.php">Transactions.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">205</td>
+                            <td class="phpdocumentor-cell">implement</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Api/Tours/Bookings.php"></a>
+                <h3><abbr title="src/Api/Tours/Bookings.php">Bookings.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">36</td>
+                            <td class="phpdocumentor-cell">fix up class and documentation</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Api/Tours/Costs.php"></a>
+                <h3><abbr title="src/Api/Tours/Costs.php">Costs.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">38</td>
+                            <td class="phpdocumentor-cell">fix up class and documentation</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Api/Tours/Prices.php"></a>
+                <h3><abbr title="src/Api/Tours/Prices.php">Prices.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">38</td>
+                            <td class="phpdocumentor-cell">retrieve agency net price</td>
+                        </tr>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">38</td>
+                            <td class="phpdocumentor-cell">getSeat with agency parameter so the agencies retail price is returned</td>
+                        </tr>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">51</td>
+                            <td class="phpdocumentor-cell">fix return type upstream</td>
+                        </tr>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">73</td>
+                            <td class="phpdocumentor-cell">fix return type upstream</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Core/Autotasks/CronjobTransformer.php"></a>
+                <h3><abbr title="src/Core/Autotasks/CronjobTransformer.php">CronjobTransformer.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">72</td>
+                            <td class="phpdocumentor-cell">create</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Core/Configuration/Config.php"></a>
+                <h3><abbr title="src/Core/Configuration/Config.php">Config.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">66</td>
+                            <td class="phpdocumentor-cell">move to getting this info from static value</td>
+                        </tr>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">123</td>
+                            <td class="phpdocumentor-cell">handle all exceptions, this always returns string</td>
+                        </tr>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">138</td>
+                            <td class="phpdocumentor-cell">check if parameter exists</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Core/Customers/Customers.php"></a>
+                <h3><abbr title="src/Core/Customers/Customers.php">Customers.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">246</td>
+                            <td class="phpdocumentor-cell">fix name and usage</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Core/Documents/Documents.php"></a>
+                <h3><abbr title="src/Core/Documents/Documents.php">Documents.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">140</td>
+                            <td class="phpdocumentor-cell">sanitize output</td>
+                        </tr>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">164</td>
+                            <td class="phpdocumentor-cell">fix phpstan issues</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Core/Helpers/Encryption.php"></a>
+                <h3><abbr title="src/Core/Helpers/Encryption.php">Encryption.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">113</td>
+                            <td class="phpdocumentor-cell">handle exceptions</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Core/Helpers/Helpers.php"></a>
+                <h3><abbr title="src/Core/Helpers/Helpers.php">Helpers.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">45</td>
+                            <td class="phpdocumentor-cell">fix up class and documentation</td>
+                        </tr>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">170</td>
+                            <td class="phpdocumentor-cell">refactor to League\Flysystem</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Core/Obsolete/Crud13.php"></a>
+                <h3><abbr title="src/Core/Obsolete/Crud13.php">Crud13.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">124</td>
+                            <td class="phpdocumentor-cell">this function should work without using limit and offset</td>
+                        </tr>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">364</td>
+                            <td class="phpdocumentor-cell">find out if this function is still used</td>
+                        </tr>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">94</td>
+                            <td class="phpdocumentor-cell">this should not exist instead of false (at least in skeleton)</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Core/Options/Options.php"></a>
+                <h3><abbr title="src/Core/Options/Options.php">Options.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">40</td>
+                            <td class="phpdocumentor-cell">find out why this is not using TypedGet trait.</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Core/Users/Passphrase.php"></a>
+                <h3><abbr title="src/Core/Users/Passphrase.php">Passphrase.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">116</td>
+                            <td class="phpdocumentor-cell">why integers when boolean would do the job properly?</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Core/Users/Userrole.php"></a>
+                <h3><abbr title="src/Core/Users/Userrole.php">Userrole.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">154</td>
+                            <td class="phpdocumentor-cell">rename to guest
+
+user role public
+public user, used for calendar display and public bookings</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Core/Users/Users.php"></a>
+                <h3><abbr title="src/Core/Users/Users.php">Users.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">204</td>
+                            <td class="phpdocumentor-cell">rework into using password_verify()</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Data/Crud/Traits/StaticGet.php"></a>
+                <h3><abbr title="src/Data/Crud/Traits/StaticGet.php">StaticGet.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">92</td>
+                            <td class="phpdocumentor-cell">set table by parameter</td>
+                        </tr>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">92</td>
+                            <td class="phpdocumentor-cell">typecast result</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Data/Crud/Traits/StaticIndex.php"></a>
+                <h3><abbr title="src/Data/Crud/Traits/StaticIndex.php">StaticIndex.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">195</td>
+                            <td class="phpdocumentor-cell">sort defaults</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Frontend/Documentation/Documentation.php"></a>
+                <h3><abbr title="src/Frontend/Documentation/Documentation.php">Documentation.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">94</td>
+                            <td class="phpdocumentor-cell">refactor this method into returning a boolean for success/failure.</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Frontend/Page/Data.php"></a>
+                <h3><abbr title="src/Frontend/Page/Data.php">Data.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">34</td>
+                            <td class="phpdocumentor-cell">find out if this maybe is better suited at another location</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Frontend/Page/Debugger.php"></a>
+                <h3><abbr title="src/Frontend/Page/Debugger.php">Debugger.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">48</td>
+                            <td class="phpdocumentor-cell">track trace</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Frontend/Page/Icons.php"></a>
+                <h3><abbr title="src/Frontend/Page/Icons.php">Icons.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">38</td>
+                            <td class="phpdocumentor-cell">add a method to include individual settings, via array instead string</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Tours/Bookings.php"></a>
+                <h3><abbr title="src/Tours/Bookings.php">Bookings.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">43</td>
+                            <td class="phpdocumentor-cell">fix up class and documentation</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Tours/Bookings2.php"></a>
+                <h3><abbr title="src/Tours/Bookings2.php">Bookings2.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">60</td>
+                            <td class="phpdocumentor-cell">remove obsolete fields
+- solved
+- is_tourguide</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Tours/Categories.php"></a>
+                <h3><abbr title="src/Tours/Categories.php">Categories.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">46</td>
+                            <td class="phpdocumentor-cell">slug lowercase and spaces to dashes</td>
+                        </tr>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">46</td>
+                            <td class="phpdocumentor-cell">slug cannot be empty</td>
+                        </tr>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">46</td>
+                            <td class="phpdocumentor-cell">label cannot be empty</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Tours/Prices.php"></a>
+                <h3><abbr title="src/Tours/Prices.php">Prices.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">79</td>
+                            <td class="phpdocumentor-cell">check digit allocation for this class</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Tours/RecentBookings.php"></a>
+                <h3><abbr title="src/Tours/RecentBookings.php">RecentBookings.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">43</td>
+                            <td class="phpdocumentor-cell">fix up class and documentation</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Tours/Templates/TourTemplates.php"></a>
+                <h3><abbr title="src/Tours/Templates/TourTemplates.php">TourTemplates.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">40</td>
+                            <td class="phpdocumentor-cell">fix up class and documentation</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Tours/Tours.php"></a>
+                <h3><abbr title="src/Tours/Tours.php">Tours.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">39</td>
+                            <td class="phpdocumentor-cell">fix up class and documentation</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                            <a id="src/Tours/Tours2.php"></a>
+                <h3><abbr title="src/Tours/Tours2.php">Tours2.php</abbr></h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="phpdocumentor-heading">Type</th>
+                        <th class="phpdocumentor-heading">Line</th>
+                        <th class="phpdocumentor-heading">Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td class="phpdocumentor-cell">TODO</td>
+                            <td class="phpdocumentor-cell">44</td>
+                            <td class="phpdocumentor-cell">fix up class and documentation</td>
+                        </tr>
+                                        </tbody>
+                </table>
+                    </div>
+    </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+        </div>
+        <a href="reports/markers.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
+</body>
+</html>
